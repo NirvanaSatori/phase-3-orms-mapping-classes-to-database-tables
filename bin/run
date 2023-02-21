@@ -3,5 +3,7 @@
 require 'pry'
 require_relative '../config/environment'
 
-binding.pry
-"pls"
+# binding.pry
+# "pls"
+Song.create_table
+Song.create(name: "remember this", album: "NF")
